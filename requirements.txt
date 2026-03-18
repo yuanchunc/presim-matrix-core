@@ -1,26 +1,5 @@
-# 预演沙盘 PreSim Matrix - 基础依赖
-# 锁定稳定兼容版本
-
-# 仿真引擎 - LangGraph 调度
-langgraph>=0.2.0,<0.3.0
-langchain-core>=0.3.0,<0.4.0
-langchain>=0.3.0,<0.4.0
-
-# 向量存储
-chromadb>=0.5.0,<0.6.0
-
-# 可视化
-streamlit>=1.40.0,<2.0.0
-pandas>=2.0.0,<3.0.0
-
-# 数据校验与配置
-pydantic>=2.0.0,<3.0.0
-pyyaml>=6.0,<7.0
-
-# 大模型适配
-openai>=1.0.0,<2.0.0
-google-generativeai>=0.8.0,<0.9.0
-dashscope>=1.20.0,<2.0.0
-
-# 通用依赖
-typing-extensions>=4.0.0
+streamlit>=1.30.0
+langchain>=0.1.0
+langgraph>=0.0.26
+pydantic>=2.0.0
+pyyaml>=6.0
